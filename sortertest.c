@@ -1185,6 +1185,8 @@ int main(int argc, char **argv) {
 		printf("Total number of threads: %d\n", *num_children + 1);
 	}
 
+	//pthread_mutex_destroy(&lock)
+	
 	return 0;
 }
 
